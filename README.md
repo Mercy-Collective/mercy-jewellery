@@ -6,9 +6,9 @@ This script has been made by ツfỈRË#3263 for Mercy Collective.
 Players have to thermite the electrical box on the roof before the front door opens.
 
 # Dependencies
-[QBCore Framework](https://github.com/qbcore-framework)
-[ps-ui](https://github.com/Project-Sloth/ps-ui)
-[qb-target](https://github.com/qbcore-framework/qb-target)
+- [QBCore Framework](https://github.com/qbcore-framework)
+- [ps-ui](https://github.com/Project-Sloth/ps-ui)
+- [qb-target](https://github.com/qbcore-framework/qb-target)
 
 # Doorlock Config:
 ```lua
