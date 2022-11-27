@@ -33,6 +33,16 @@ QBCore.Functions.CreateCallback('mercy-jewellery:server:getCops', function(sourc
     cb(CopAmount)
 end)
 
+QBCore.Functions.CreateCallback('mc-jewellery/server/remove-item', function(source, cb, name, amount)
+    local Player = QBCore.Functions.GetPlayer(source)
+    if Player.Functions.RemoveItem(name, amount) then
+        cb(true)
+    else
+        cb(false)
+    end
+    cb(CopAmount)
+end)
+
 -- [ Events ] --
 
 RegisterNetEvent('mercy-jewellery:server:ThermitePtfx', function()
